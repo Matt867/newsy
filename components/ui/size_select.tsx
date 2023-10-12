@@ -13,10 +13,10 @@ export default function SizeSelect({}: Props) {
   return (
     <Select>
       <SelectTrigger>
-        <SelectValue placeholder="Select estimated size" />
+        <SelectValue placeholder="Size" />
       </SelectTrigger>
       <SelectContent defaultValue={"na"}>
-        <SelectItem value="na">Select estimated size</SelectItem>
+        <SelectItem value="na">Size</SelectItem>
         <SelectItem value="xs">Extra Small</SelectItem>
         <SelectItem value="s">Small</SelectItem>
         <SelectItem value="md">Medium</SelectItem>
